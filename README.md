@@ -3,7 +3,8 @@
 
 **Data Engineering** 
 (please note: there was a process failure when I tried to import the files, did try to DROP the tables and recreate the schema) 
--create table for employees using foreign keys(title_i)d and primary keys(emp_no)
+
+-created table for employees using foreign keys(title_i)d and primary keys(emp_no)
 
    CREATE TABLE employees (
     emp_no INT PRIMARY KEY,
@@ -16,7 +17,7 @@
     FOREIGN KEY (title_id) REFERENCES titles(title_id)
 );
 
--create the table for departments, salaries,titles,depmartment manager, and depmartment employee 
+-created the table for departments, salaries,titles,depmartment manager, and depmartment employee 
 
 CREATE TABLE titles (
     title_id VARCHAR(10) PRIMARY KEY,  
