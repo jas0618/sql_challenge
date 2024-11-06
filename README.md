@@ -1,7 +1,7 @@
-##Data Modeling 
+**Data Modeling**
 --please find attached a sketch an Entity Relationship Diagram 
 
-##Data Engineering 
+**Data Engineering** 
 (please note: there was a process failure when I tried to import the files, did try to DROP the tables and recreate the schema) 
 -create table for employees using foreign keys(title_i)d and primary keys(emp_no)
 
@@ -91,7 +91,7 @@ CREATE INDEX idx_salary_emp_no ON salary(emp_no);
 CREATE INDEX idx_dept_manager_emp_no ON dept_manager(emp_no);
 CREATE INDEX idx_dept_manager_dept_no ON dept_manager(dept_no);
 
-##Data Analysis 
+**Data Analysis** 
 -please find below the lists:
 - Part a: list the employee number
 SELECT 
